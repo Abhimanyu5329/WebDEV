@@ -1,1 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale1.0">
+        <title>my portfolio website</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background-color: rgb(0, 0, 33);
+                color: white;
+            }
+            nav{
+                display:flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 80px;
+                background-color: rgb(18, 18, 62);
+            }
+            nav ul{
+                display: flex;
+                justify-content: center;
+            }
+            nav ul li{
+                list-style: none;
+                margin: 0 23px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: white;
+            }
+            nav ul li a:hover{
+                color: rgb(153, 153, 226);
+                font-size: 1.01rem;
+            }
 
+            main hr{
+                border: 0;
+                background:#9c97f1 ;
+                height: 1.2px;
+                margin: 60px 84px;
+            }
+            .left{
+                font-size: 1.5rem;
+            }
+            .firstSection{
+                display:flex;
+                justify-content: space-around;
+                align-items: center;
+                margin: 130px 0;
+            }
+            .firstSection> div{
+                width: 30%;
+            }
+            .leftSection{
+                font-size: 3rem; 
+            }
+            .leftSection .buttons{
+            padding: 50px 0;
+            }
+            .leftSection .btn {
+                padding:12px ;
+                background: #1e2167;
+                color: white;
+                 border: 2px solid white;
+                 border-radius: 6px;
+                 font-size: 20px;
+                 cursor: pointer;
+
+            }
+            .rightSection img{
+                width: 80%;
+            }
+            .purple{
+                color: rgb(170, 107,228);
+            }
+            .text-gray{
+                color: gray;
+            }
+           #element{
+            color: rgb(170, 107,228);
+           }
+           .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+           }
+           .secondSection h1{
+            font-size: 1.9rem;
+           }
+           .secondSection .box{
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+           }
+           .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+
+           }
+           .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+           }
+           .vertical-title{
+              position: relative;
+              top: 75px;
+              width: 150px;
+              font-size: 14px;
+           }
+           .verical-desc{
+               position: relative;
+               top: 86px;
+               color: gray;
+               width: 150px;
+               font-size: 9px;
+           }
+           .thirdSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+           }
+           .thirdSection h2{
+            font-size: 1.9rem;
+           }
+           .thirdSection h2 p{
+              position: relative;
+              top: 75px;
+              width: 150px;
+              font-size: 20px;
+              text-align: center;
+           }
+           
+           .fourthSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+            justify-content: space-between;
+           }
+           .fourthSection h2{
+            font-size: 2.0rem;
+            display: flex;
+           }
+          .fourthSection h2 p{
+              position: relative;
+              top: 75px;
+              width: 150px;
+              font-size: 20px;
+              text-align: center;
+           }
+           footer{
+            background-color: #0e0e1a;
+           }
+           .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-between;
+           }
+           .footer ul{
+            list-style: none;
+           }
+           .footer > div{
+            width: 223px;
+           }
+           footer .footer-rights{
+            text-align: center;
+            padding: 12px 0;
+           }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="left">Abhimanyu's Portfolio</div>
+                <div class="right">
+                    <ul>
+                       <li><a href="/">Home</a></li>
+                       <li><a href="/">About</a></li>
+                       <li><a href="/">Services</a></li>
+                       <li><a href="/">Projects</a></li>
+                      <li><a href="/">Contact Me</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+
+        <main>
+            <section class="firstSection">
+                <div class="leftSection">
+               Hi,My name is <span class="purple">Abhimanyu singh</span>
+             <div> and I am a passionate</div> 
+             <span id="element"></span> 
+             <div class="buttons">
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit Github</button>
+             </div>
+                </div>
+                <div class="rightSection">
+                   <img src="C:\Users\roses\OneDrive\Pictures\p2.png.jpg" alt="">
+
+                </div>
+            </section>
+            <hr>
+            <section class="secondSection">
+                <span class="text-gray"> What I have done so far</span>
+                <h1>Work Experience</h1>
+                <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="C:\Users\roses\OneDrive\Pictures\p2.png.jpg" alt="">
+                
+                    <div class="vertical-title">
+                    HTML Developer(2022-24)
+                </div>
+                <div class="verical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi est rem tempore.
+                </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"  src="C:\Users\roses\OneDrive\Pictures\p2.png.jpg" alt="">
+                <div class="vertical-title">
+                    Node js Developer(2022-24)
+                </div>
+                <div class="verical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi est rem tempore.
+                </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="C:\Users\roses\OneDrive\Pictures\p2.png.jpg" alt="">
+                <div class="vertical-title">
+                    Tiwing CSS Developer(2022-24)
+                </div>
+                <div class="verical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi est rem tempore.
+                </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="C:\Users\roses\OneDrive\Pictures\p2.png.jpg" alt="">
+                <div class="vertical-title">
+                    Bootstrap Developer(2022-24)
+                </div>
+                <div class="verical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi est rem tempore.
+                </div>
+                </div>
+                </div>
+            </section>
+            <hr>
+            <section class="thirdSection">
+                <span class="text-gray"> What I am...</span>
+                <h2>About Me</h2><br><br><br>
+
+                <p>I am Abhimanyu Singh, and I am a passionate <span class="purple">"Java Developer/Web Developer/Web Designer.."</span> <br><br>"My objective is to contribute my skills And dedication to a dynamic team, aiming to deliver high-quality work and continuously grow within the company..." I want to contribute our knowledge and programming skills. I am considered as working and productive for providing solutions and am very passionate about coding and problem-solving.I am quick learner and really want to experience and explore the new things.<br><br>
+               <li> Pursuing B.Tech CSE - "Vishveswarya Group Of Institution"</li><br><br>
+               <li> Doing Intership - "CodSoft (As a Web Developer)"...</li><br><br>
+               <li>12th - Delhi Public School, Motihari</li><br><br>  
+               <li>10th - C.S. DAV Public School Motihari</li><br><br><br>
+               <a href="https://www.linkedin.com/in/rose-sharan-64b21a318?lipi=urn%3Ali%3Apage%3Ad_flagship3_messaging_conversation_detail%3BEzd%2Fd597QpG%2BTMeBVMagAA%3D%3D">Visit My Linkedln Profile  </a>
+            </p>
+                
+            </section>
+            <hr>
+            <section class="fourthSection">
+                <h2>Projects</h2><br><br>
+                <div class="Project">
+                    <h3><center>1.Blood Bank Management System:</center></h3><br><br>
+                    <p>A Blood bank management system is to efficiently manage and streamline blood donation, storage, and distribution processes for optimal healthcare delivery.</p><br><br>
+                </div>
+                <div class="Project">
+                    <h3><center>2.Point of Sale Terminal:</center></h3><br><br>
+                    <p>A Point of Sale (POS) terminal is a system used to process sales transactions, typically combining hardware and software to facilitate payment processing inventory management, and customer interaction.</p><br><br>
+                </div>
+                <div class="Project">
+                    <h3><center>3.Movie Streaming website:</center></h3><br><br>
+                    <p>It is a website through which anyone can download the new release movie in HD Quality... It consist of movies, webseries and Tv shows..</p>
+                </div>
+                
+            </section>
+            <hr>
+
+            <section id="contact">
+                <h2 ><center>Contact</center></h2>
+                <p><center>Email: rajput7667195910@gmail.com@gmail</center></p>
+                <p><center>Phone: (123) 4567890</center></p>
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+               <div class="footer-first">
+                <h3>Rose's Developer Portfolio</h3>
+               </div>
+
+               <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+               </div>
+
+               <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+               </div>
+
+               <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+               </div>
+               
+            </div>
+            <div class="footer-rights">
+                copyrights &#169;rosesportfolio.com | All rights reserved..
+            </div>
+        </footer>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<!-- Setup and start animation! -->
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Frontend Developer', 'Backend Developer', 'Web Developer', 'Web Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+
+    </body>
+</html>
